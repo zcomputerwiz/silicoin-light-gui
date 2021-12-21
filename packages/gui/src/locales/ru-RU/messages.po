@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: ru_RU\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: silicoin-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-09-17 17:40\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: silicoin-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: ru\n"
-"X-Crowdin-File: /[Chia-Network.silicoin-light-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Silicoin-Network.silicoin-light-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgid "(Optional)"
 msgstr "(Необязательно)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Хотите посмотреть больше информации о блоках Чиа? Загляните в обозреватель блоков <0>Chia Explorer</0>, созданный на основе открытого исходного кода."
+msgid "*Want to explore Silicoin’s blocks further? Check out <0>Silicoin Explorer</0> built by an open source developer."
+msgstr "*Хотите посмотреть больше информации о блоках Чиа? Загляните в обозреватель блоков <0>Silicoin Explorer</0>, созданный на основе открытого исходного кода."
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -48,8 +48,8 @@ msgstr "Комбайн - это служба, работающая на маши
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
-msgstr "О программе Chia Blockchain"
+msgid "About Silicoin Blockchain"
+msgstr "О программе Silicoin Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -228,8 +228,8 @@ msgid "Block VDF Iterations"
 msgstr "VDF итераций блока"
 
 #: src/components/block/Block.jsx:337
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Блок на высоте {0} в блокчейне Chia"
+msgid "Block at height {0} in the Silicoin blockchain"
+msgstr "Блок на высоте {0} в блокчейне Silicoin"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -322,33 +322,33 @@ msgid "Chat on KeyBase"
 msgstr "Чат в KeyBase"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
+msgid "Silicoin"
 msgstr "Чиа"
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
+msgid "Silicoin Blockchain Wiki"
 msgstr ""
-"Блокчейн Chia на Wiki                           Chia coin\n"
+"Блокчейн Silicoin на Wiki                           Silicoin coin\n"
 "\n"
 "Мы считаем, что криптовалютой должно быть проще пользоваться, чем наличными, ее сложнее потерять и почти невозможно украсть. Любой, кто хочет подтверждать транзакции, должен иметь возможность заниматься майнингом без одноразового оборудования или больших счетов за электроэнергию.\n"
 "9 февраля мы выпустили наш бизнес-документ и запустили основную сеть для получения вознаграждений в пятницу, 19 марта 2021 года. Транзакции будут активированы 3 мая 2021 года около 10:00 по тихоокеанскому времени. Вас также может заинтересовать наш новый согласованный рабочий документ, который впервые был реализован в бета-версии 19 12 января 2021 года.\n"
 "\n"
-"Chia Network разрабатывает блокчейн и платформу интеллектуальных транзакций, созданную изобретателем BitTorrent Брэмом Коэном. Он реализует первый новый алгоритм консенсуса Накамото со времен Биткойна в 2008 году. Доказательства пространства и времени заменяют энергоемкие «доказательства работы».\n"
+"Silicoin Network разрабатывает блокчейн и платформу интеллектуальных транзакций, созданную изобретателем BitTorrent Брэмом Коэном. Он реализует первый новый алгоритм консенсуса Накамото со времен Биткойна в 2008 году. Доказательства пространства и времени заменяют энергоемкие «доказательства работы».\n"
 "\n"
-"Chialisp - это новый язык программирования Chia, который является мощным, легким для аудита и безопасным. Это упростит использование криптовалюты, чем наличные деньги или кредит. В настоящее время доступны следующие эталонные смарт-транзакции: атомарные свопы, авторизованные получатели, восстанавливаемые кошельки, кошельки с несколькими подписями, кошельки с ограничением скорости и цветные монеты. Брэм представляет Chialisp в нашем блоге.\n"
-"Вам следует ознакомиться с примечаниями к выпуску, а затем установить блокчейн Chia.\n"
+"Chialisp - это новый язык программирования Silicoin, который является мощным, легким для аудита и безопасным. Это упростит использование криптовалюты, чем наличные деньги или кредит. В настоящее время доступны следующие эталонные смарт-транзакции: атомарные свопы, авторизованные получатели, восстанавливаемые кошельки, кошельки с несколькими подписями, кошельки с ограничением скорости и цветные монеты. Брэм представляет Chialisp в нашем блоге.\n"
+"Вам следует ознакомиться с примечаниями к выпуску, а затем установить блокчейн Silicoin.\n"
 "\n"
 "Руководство для начинающих\n"
 "\n"
 "\n"
 "Основная информация о Чиа для начала\n"
-"Chia - это новый тип криптовалюты, основанный на емкости предварительно сохраненных случайных данных, которые пользователь создает и хранит в файлах, называемых графиками, что делает консенсус блокчейна чрезвычайно быстрым и экологически чистым. Это улучшение по сравнению с блокчейнами доказательства работы, которые полагаются на быстрые графические карты и специальные машины, выполняющие миллионы вычислений в секунду и тратящие много электроэнергии. Chia также внесла множество улучшений в сценарии, среду сценариев, криптографию, удобство использования и масштабируемость и стремится быть простым, безопасным и мощным блокчейном.\n"
+"Silicoin - это новый тип криптовалюты, основанный на емкости предварительно сохраненных случайных данных, которые пользователь создает и хранит в файлах, называемых графиками, что делает консенсус блокчейна чрезвычайно быстрым и экологически чистым. Это улучшение по сравнению с блокчейнами доказательства работы, которые полагаются на быстрые графические карты и специальные машины, выполняющие миллионы вычислений в секунду и тратящие много электроэнергии. Silicoin также внесла множество улучшений в сценарии, среду сценариев, криптографию, удобство использования и масштабируемость и стремится быть простым, безопасным и мощным блокчейном.\n"
 "\n"
 "Как это работает\n"
 "\n"
-"Вы можете загрузить программное обеспечение Chia на Windows, Mac или Linux. Версия для Windows автоматически запускается при установке, и Mac просто нужно открыть из каталога приложений - он загружается и начинает синхронизацию с остальной сетью и блокчейном. Полная синхронизация может занять 4–6 часов, хотя со временем эта цифра увеличивается. По сути, вы синхронизируетсь со всеми в сети, загружая всю цепочку блоков, которая включает все транзакции, когда-либо обработанные в сети. Копия базы данных блокчейна chia будет храниться на вашем компьютере. У всех остальных есть копия.\n"
+"Вы можете загрузить программное обеспечение Silicoin на Windows, Mac или Linux. Версия для Windows автоматически запускается при установке, и Mac просто нужно открыть из каталога приложений - он загружается и начинает синхронизацию с остальной сетью и блокчейном. Полная синхронизация может занять 4–6 часов, хотя со временем эта цифра увеличивается. По сути, вы синхронизируетсь со всеми в сети, загружая всю цепочку блоков, которая включает все транзакции, когда-либо обработанные в сети. Копия базы данных блокчейна silicoin будет храниться на вашем компьютере. У всех остальных есть копия.\n"
 "\n"
-"После того, как chia заработала, ее концепция: пользователи создают графики (каждый размером 101 гигабайт), пользователь сохраняет эти графики на компьютерном оборудовании, а затем обрабатывает созданные участки для потенциального заработка монет.\n"
+"После того, как silicoin заработала, ее концепция: пользователи создают графики (каждый размером 101 гигабайт), пользователь сохраняет эти графики на компьютерном оборудовании, а затем обрабатывает созданные участки для потенциального заработка монет.\n"
 "\n"
 "Внутри каждого графика находится большое количество предварительно сформулированных вычислений, хранящихся в блоках листа Excel, называемых (хеш-ячейками). Пользователь выигрывает потенциальные монеты, предоставляя заранее сформулированный (хеш-код) выигрышный код, позволяющий совершить транзакцию. Выигрышная транзакция выполняется очень быстро в течение 2-3 секунд, и пользователю выплачивается компенсация монетами для облегчения транзакции. Сюжеты содержат много (хеш-ячеек) внутри, поэтому, если используется 1, остается еще много ячеек. Земельный участок рассчитан на срок более 5 лет.\n"
 "\n"
@@ -366,12 +366,12 @@ msgstr ""
 "Руководство для начинающих\n"
 "lon12 отредактировал эту страницу 10 дней назад • 57 редакций\n"
 "Основная информация о Чиа для начала\n"
-"Chia - это новый тип криптовалюты, основанный на емкости предварительно сохраненных случайных данных, которые пользователь создает и хранит в файлах, называемых графиками, что делает консенсус блокчейна чрезвычайно быстрым и экологически чистым. Это улучшение по сравнению с блокчейнами доказательства работы, которые полагаются на быстрые графические карты и специальные машины, выполняющие миллионы вычислений в секунду и тратящие много электроэнергии. Chia также внесла множество улучшений в сценарии, среду сценариев, криптографию, удобство использования и масштабируемость и стремится быть простым, безопасным и мощным блокчейном.\n"
+"Silicoin - это новый тип криптовалюты, основанный на емкости предварительно сохраненных случайных данных, которые пользователь создает и хранит в файлах, называемых графиками, что делает консенсус блокчейна чрезвычайно быстрым и экологически чистым. Это улучшение по сравнению с блокчейнами доказательства работы, которые полагаются на быстрые графические карты и специальные машины, выполняющие миллионы вычислений в секунду и тратящие много электроэнергии. Silicoin также внесла множество улучшений в сценарии, среду сценариев, криптографию, удобство использования и масштабируемость и стремится быть простым, безопасным и мощным блокчейном.\n"
 "\n"
 "Как это работает\n"
-"Вы можете загрузить программное обеспечение Chia на Windows, Mac или Linux. Версия для Windows автоматически запускается при установке, и Mac просто нужно открыть из каталога приложений - он загружается и начинает синхронизацию с остальной сетью и блокчейном. Полная синхронизация может занять 4–6 часов, хотя со временем эта цифра увеличивается. По сути, вы синхронизируете со всеми в сети, загружая всю цепочку блоков, которая включает все транзакции, когда-либо обработанные в сети. Копия базы данных блокчейна chia будет храниться на вашем компьютере. У всех остальных есть копия.\n"
+"Вы можете загрузить программное обеспечение Silicoin на Windows, Mac или Linux. Версия для Windows автоматически запускается при установке, и Mac просто нужно открыть из каталога приложений - он загружается и начинает синхронизацию с остальной сетью и блокчейном. Полная синхронизация может занять 4–6 часов, хотя со временем эта цифра увеличивается. По сути, вы синхронизируете со всеми в сети, загружая всю цепочку блоков, которая включает все транзакции, когда-либо обработанные в сети. Копия базы данных блокчейна silicoin будет храниться на вашем компьютере. У всех остальных есть копия.\n"
 "\n"
-"После того, как chia заработала, ее концепция: пользователи создают графики (каждый размером 101 гигабайт), пользователь сохраняет эти графики на компьютерном оборудовании, а затем обрабатывает созданные участки для потенциального заработка монет.\n"
+"После того, как silicoin заработала, ее концепция: пользователи создают графики (каждый размером 101 гигабайт), пользователь сохраняет эти графики на компьютерном оборудовании, а затем обрабатывает созданные участки для потенциального заработка монет.\n"
 "\n"
 "Внутри каждого графика находится большое количество предварительно сформулированных вычислений, хранящихся в блоках листа Excel, называемых (хеш-ячейками). Пользователь выигрывает потенциальные монеты, предоставляя заранее сформулированный (хеш-код) выигрышный код, позволяющий совершить транзакцию. Выигрышная транзакция выполняется очень быстро в течение 2-3 секунд, и пользователю выплачивается компенсация монетами для облегчения транзакции. Сюжеты содержат много (хеш-ячеек) внутри, поэтому, если используется 1, остается еще много ячеек. Земельный участок рассчитан на срок более 5 лет.\n"
 "\n"
@@ -397,8 +397,8 @@ msgstr ""
 "Вот почему транзакции такие зеленые /\n"
 "\n"
 "Вкладка \"Ферма\"\n"
-"Это покажет вам, сколько PLOTS-полей вы создали. Вверху будет показано, сколько Chias было выращено. Также он показывает, сколько гигов участков у вас в сети. Если у вас есть 2 участка по 101 ГиБ. Затем в левом верхнем углу отображается «Общий размер участков» .\n"
-"2 TIB означает, что вы предлагаете такой объем хранилища для формул сети chia. Рассчитано, как если бы у вас 101 ГиБ x 2 = 202 ГиБ.\n"
+"Это покажет вам, сколько PLOTS-полей вы создали. Вверху будет показано, сколько Silicoins было выращено. Также он показывает, сколько гигов участков у вас в сети. Если у вас есть 2 участка по 101 ГиБ. Затем в левом верхнем углу отображается «Общий размер участков» .\n"
+"2 TIB означает, что вы предлагаете такой объем хранилища для формул сети silicoin. Рассчитано, как если бы у вас 101 ГиБ x 2 = 202 ГиБ.\n"
 "\n"
 "Последние испытания блоков: здесь показаны последние испытания и указатели, которые можно рассматривать как мини-лотереи. Каждые 9 секунд появляется новая вывеска, а это означает, что у вас есть новая возможность проверить свои участки и узнать, выиграли ли вы. Любая другая точка вывески будет выигрышной для кого-то в сети, поэтому каждые 18 секунд создается новый блок.\n"
 "\n"
@@ -407,7 +407,7 @@ msgstr ""
 "Шаг 2 - Выбранный участок проверяется на выигрышный хэш. Итак, в качестве примера - ваша система работает - есть 5 строк, если у вас 157 графиков - каждая из 5 строк читает 0/157. Если выбран график или второй график, это хорошая новость, и число изменится на 1/157 или 2/157, может быть, 3/157. После прохождения фильтра каждый выбранный участок будет проходить «качественный поиск», который выполняет примерно 7 считываний на вашем графике и сообщает вам, выиграли ли участки. Если вы выиграли, это не показывает никаких признаков, так как транзакция выполняется быстро. Ваш кошелек увеличивается.\n"
 "\n"
 "Как только это совпадение появится в первой строке, оно переместится вниз к строкам 2-5, затем, если другой график пройдет шаг 1, он также начнется сверху, amd переместится, выполнив процесс фильтрации.\n"
-"Выигрыши случаются очень редко: в среднем один человек во всем мире выигрывает каждые 18 секунд. На каждой точке указателя (9 секунд) все ваши участки проверяются, чтобы увидеть, какие из них проходят [фильтр поля]. (https://github.com/Chia-Network/chia-blockchain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it). Примерно 1/512 всех участков пройдут через фильтр в каждом испытании, поэтому здесь вы можете увидеть, сколько ваших участков прошло. Однако есть 4 608 шансов выиграть 2 чиа каждый день.\n"
+"Выигрыши случаются очень редко: в среднем один человек во всем мире выигрывает каждые 18 секунд. На каждой точке указателя (9 секунд) все ваши участки проверяются, чтобы увидеть, какие из них проходят [фильтр поля]. (https://github.com/Silicoin-Network/silicoin-blockchain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it). Примерно 1/512 всех участков пройдут через фильтр в каждом испытании, поэтому здесь вы можете увидеть, сколько ваших участков прошло. Однако есть 4 608 шансов выиграть 2 чиа каждый день.\n"
 "\n"
 "Если по какой-то причине эти строки перестают двигаться, это еще один признак того, что вы не синхронизированы с базой данных и вам необходимо выполнить повторную синхронизацию - см. Ниже.\n"
 "\n"
@@ -481,29 +481,29 @@ msgstr ""
 "Примечания. \n"
 "Предлагается использовать дополнительное хранилище SSD или NVME для создания полей, а не основной жесткий диск (особенно для несменного NVME, например, на некоторых Mac или ноутбуках с Windows). Если по какой-то причине процесс записи поля не может быть завершен, его следует удален, удалив все временные файлы. Будьте осторожны, чтобы не удалить временные файлы другого строящегося поля.\n"
 "\n"
-"В Windows вы можете использовать chia CLI из Windows PowerShell, что обеспечивает большую гибкость и контроль. PowerShell - это программа, в которой вы вводите команды, нажимаете клавишу ВВОД и выполняете такие действия, как изменение папок, перемещение файлов или запуск программ, таких как chia.\n"
+"В Windows вы можете использовать silicoin CLI из Windows PowerShell, что обеспечивает большую гибкость и контроль. PowerShell - это программа, в которой вы вводите команды, нажимаете клавишу ВВОД и выполняете такие действия, как изменение папок, перемещение файлов или запуск программ, таких как silicoin.\n"
 "\n"
 "1. Параллельное построение с использованием PowerShell\n"
-"    cd C:\\Users\\yourUserName\\AppData\\Local\\Chia-Blockchain\\app-1.0.5\\resources\\app.asar.unpacked\\daemon\\\n"
-"    start-process .\\chia.exe -argumentlist \"plots create yourParametersGoHere\"\n"
+"    cd C:\\Users\\yourUserName\\AppData\\Local\\Silicoin-Blockchain\\app-1.0.5\\resources\\app.asar.unpacked\\daemon\\\n"
+"    start-process .\\silicoin.exe -argumentlist \"plots create yourParametersGoHere\"\n"
 "    start-process ....\n"
 "\n"
-"   Если start-process не работает, попробуйте. .\\chia.exe plots create yourParametersGoHere\n"
+"   Если start-process не работает, попробуйте. .\\silicoin.exe plots create yourParametersGoHere\n"
 "\n"
 "Или добавьте путь\n"
-" \"%USERPROFILE%\\AppData\\Local\\chia-blockchain\\app-1.0.5\\resources\\app.asar.unpacked\\daemon\"\n"
+" \"%USERPROFILE%\\AppData\\Local\\silicoin-blockchain\\app-1.0.5\\resources\\app.asar.unpacked\\daemon\"\n"
 "\n"
-"Чтобы добавить задержку между вашими параллельными процессами, вы можете поместить sleep <seconds> между каждой командой создания полей chia chia plots create , например чтобы отложить следующий процесс на час sleep 3600\n"
+"Чтобы добавить задержку между вашими параллельными процессами, вы можете поместить sleep <seconds> между каждой командой создания полей silicoin silicoin plots create , например чтобы отложить следующий процесс на час sleep 3600\n"
 "\n"
 "Конкретный пример:\n"
-"    cd C:\\Users\\yourUserName\\AppData\\Local\\Chia-Blockchain\\app-1.0.5\\resources\\app.asar.unpacked\\daemon\\\n"
-"    start-process ./chia.exe -argumentlist \"plots create -k 32 -b 4000 -u 128 -r 4 -t d:\\tempdrive1 -2 e:\\tempdrive2 -d F:\\plots -n 1\"\n"
+"    cd C:\\Users\\yourUserName\\AppData\\Local\\Silicoin-Blockchain\\app-1.0.5\\resources\\app.asar.unpacked\\daemon\\\n"
+"    start-process ./silicoin.exe -argumentlist \"plots create -k 32 -b 4000 -u 128 -r 4 -t d:\\tempdrive1 -2 e:\\tempdrive2 -d F:\\plots -n 1\"\n"
 "\n"
 "Приведенная выше команда создает одио поле (указывается -n 1), для параллельного построения вам нужно повторить команду (не закрывая первую). Увеличьте значение -n для последовательного построения, то есть после завершения первого участка запускается следующий."
 
 #: src/components/wallet/standard/WalletStandard.tsx:649
-msgid "Chia Wallet"
-msgstr "Кошелек Chia"
+msgid "Silicoin Wallet"
+msgstr "Кошелек Silicoin"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -909,8 +909,8 @@ msgid "Edit Payout Instructions"
 msgstr "Редактировать инструкции выплат"
 
 #: src/components/wallet/WalletImport.tsx:146
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Введите мнемонику из 24 слов, которую вы сохранили, чтобы восстановить свой кошелек Chia."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Silicoin wallet."
+msgstr "Введите мнемонику из 24 слов, которую вы сохранили, чтобы восстановить свой кошелек Silicoin."
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -923,8 +923,8 @@ msgid "Error"
 msgstr "Ошибка"
 
 #: src/components/wallet/standard/WalletStandard.tsx:456
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Ошибка: не удается отправить чиа на цветной адрес. Пожалуйста, введите адрес chia."
+msgid "Error: Cannot send silicoin to coloured address. Please enter a silicoin address."
+msgstr "Ошибка: не удается отправить чиа на цветной адрес. Пожалуйста, введите адрес silicoin."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1748,7 +1748,7 @@ msgid "Plots Passed Filter"
 msgstr "Участки, прошедшие фильтр"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Silicoin. <0>Learn more</0>"
 msgstr "Участки - это выделенное пространство на вашем жестком диске. Участки используются для фарминга и приносят доход в чиа. <0>Подробности</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
@@ -2213,8 +2213,8 @@ msgstr "Длина интервала расходования (количест
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Лимит расходования (chia за интервал): {0}"
+msgid "Spending Limit (silicoin per interval): {0}"
+msgstr "Лимит расходования (silicoin за интервал): {0}"
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -2262,8 +2262,8 @@ msgstr "Статус:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Silicoin blockchain"
+#~ msgstr "Sub Block at height {0} in the Silicoin blockchain"
 
 #: src/components/wallet/did/WalletDID.tsx:886
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
@@ -2412,7 +2412,7 @@ msgid "This feature is available only from the GUI."
 msgstr "Эта функция доступна только из графического интерфейса."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+msgid "This is the amount of Silicoin that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Silicoin that you have just spent but is not yet in the blockchain."
 msgstr "Это количество монет Чиа, которое в настоящее время вы можете использовать для совершения транзакций. Баланс не включает ожидающие вознаграждения за фармиг, ожидающие входящие транзакции и монеты, которые вы только что потратили, но они еще не попали в блокчейн."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
@@ -2432,7 +2432,7 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Это момент времени, когда блок был создан фермером, то есть до того, как он был завершен с применением алгоритма подтверждения времени (proof of time)."
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of silicoin in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "Это общее количество монет Чиа в блокчейне в текущем пиковом суб блоке, которые контролируются вашими приватными ключами. Баланс включает в себя замороженные награды за фарм, но не включает ожидающие входящие и исходящие транзакции."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
@@ -2478,8 +2478,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Сделка была включена в блокчейн на указанной высоте блока"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Эта версия Chia больше не совместима с блокчейном и не может безопасно фармить."
+msgid "This version of Silicoin is no longer compatible with the blockchain and can not safely farm."
+msgstr "Эта версия Silicoin больше не совместима с блокчейном и не может безопасно фармить."
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
@@ -2503,8 +2503,8 @@ msgstr "Кому"
 msgid "Total Balance"
 msgstr "Итоговый баланс"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalSilicoinFarmed.tsx:15
+#~ msgid "Total Silicoin Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2680,7 +2680,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.silicoinWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2717,7 +2717,7 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr "Хотите присоединиться к пулу? Создайте участок NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
+msgid "Want to earn more Silicoin? Add more plots to your farm."
 msgstr "Хотите получать больше дохода в Чиа? Добавьте больше участков к своей ферме."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
@@ -2745,7 +2745,7 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Вес - это общая добавленная сложность всех подблоков, включая этот"
 
 #: src/components/selectKey/SelectKey.tsx:141
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+msgid "Welcome to Silicoin. Please log in with an existing key, or create a new key."
 msgstr "Добро пожаловать в Чиа. Пожалуйста, войдите в систему с существующим ключом или создайте новый ключ."
 
 #: src/components/wallet/WalletAdd.tsx:66
@@ -2820,8 +2820,8 @@ msgid "You need to claim your rewards first"
 msgstr "Сначала нужно получить свою награду"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Silicoin application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Silicoin application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
@@ -2912,8 +2912,8 @@ msgstr "{0} очков {1} - {2} часов назад"
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Награда за блок"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalSilicoinFarmed.tsx:29
+msgid "{currencyCode} Total Silicoin Farmed"
 msgstr "{currencyCode} Всего Чиа выращено"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28

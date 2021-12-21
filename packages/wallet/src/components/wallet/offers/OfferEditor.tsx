@@ -8,8 +8,8 @@ import {
   Flex,
   Form,
   useShowError,
-} from '@chia/core';
-import { useCreateOfferForIdsMutation } from '@chia/api-react';
+} from '@silicoin/core';
+import { useCreateOfferForIdsMutation } from '@silicoin/api-react';
 import {
   Button,
   Divider,
@@ -20,7 +20,7 @@ import { suggestedFilenameForOffer } from './utils';
 import WalletType from '../../../constants/WalletType';
 import OfferEditorConditionsPanel from './OfferEditorConditionsPanel';
 import styled from 'styled-components';
-import { chia_to_mojo, colouredcoin_to_mojo } from '../../../util/chia';
+import { silicoin_to_mojo, colouredcoin_to_mojo } from '../../../util/silicoin';
 import fs from 'fs';
 
 const StyledEditorBox = styled.div`
@@ -53,7 +53,7 @@ function OfferEditor(): JSX.Element {
     if (assetWalletId) {
       let mojoAmount = 0;
       if (walletType === WalletType.STANDARD_WALLET) {
-        mojoAmount = Number.parseFloat(chia_to_mojo(amount));
+        mojoAmount = Number.parseFloat(silicoin_to_mojo(amount));
       }
       else if (walletType === WalletType.CAT) {
         mojoAmount = Number.parseFloat(colouredcoin_to_mojo(amount));

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Trans } from '@lingui/macro';
-import { AlertDialog, Amount, Fee, Back, ButtonLoading, Card, Flex, Form } from '@chia/core';
+import { AlertDialog, Amount, Fee, Back, ButtonLoading, Card, Flex, Form } from '@silicoin/core';
 import { Box, Grid } from '@material-ui/core';
 import { useForm } from 'react-hook-form';
 import { useHistory } from 'react-router';
-import { chia_to_mojo } from '../../../util/chia';
+import { silicoin_to_mojo } from '../../../util/silicoin';
 
 type CreateCATWalletData = {
   amount: string;
@@ -55,8 +55,8 @@ export default function WalletCATCreateNew() {
       }
       */
 
-      const amountMojos = chia_to_mojo(amount || '0');
-      const feeMojos = chia_to_mojo(fee || '0');
+      const amountMojos = silicoin_to_mojo(amount || '0');
+      const feeMojos = silicoin_to_mojo(fee || '0');
 
 
       /*
@@ -74,7 +74,7 @@ export default function WalletCATCreateNew() {
     <Form methods={methods} onSubmit={handleSubmit}>
       <Flex flexDirection="column" gap={3}>
         <Back variant="h5">
-          <Trans>Create New Chia Asset Token Wallet</Trans>
+          <Trans>Create New Silicoin Asset Token Wallet</Trans>
         </Back>
         <Card>
           <Grid spacing={2} container>

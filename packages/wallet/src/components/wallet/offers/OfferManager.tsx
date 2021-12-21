@@ -17,8 +17,8 @@ import {
   TableControlled,
   TooltipIcon,
   useOpenDialog,
-} from '@chia/core';
-import { OfferTradeRecord } from '@chia/api';
+} from '@silicoin/core';
+import { OfferTradeRecord } from '@silicoin/api';
 import {
   Box,
   Button,
@@ -32,11 +32,11 @@ import {
   Typography
 } from '@material-ui/core';
 import { Cancel, GetApp as Download, Info, Visibility } from '@material-ui/icons';
-import { Trade as TradeIcon } from '@chia/icons';
-import { useCancelOfferMutation, useGetAllOffersQuery, useGetOfferDataMutation, useGetWalletsQuery } from '@chia/api-react';
+import { Trade as TradeIcon } from '@silicoin/icons';
+import { useCancelOfferMutation, useGetAllOffersQuery, useGetOfferDataMutation, useGetWalletsQuery } from '@silicoin/api-react';
 import { colorForOfferState, displayStringForOfferState, formatAmountForWalletType, suggestedFilenameForOffer } from './utils';
 import useAssetIdName from '../../../hooks/useAssetIdName';
-import { chia_to_mojo, mojo_to_colouredcoin_string } from '../../../util/chia';
+import { silicoin_to_mojo, mojo_to_colouredcoin_string } from '../../../util/silicoin';
 import { CreateOfferEditor } from './OfferEditor';
 import { OfferImport } from './OfferImport';
 import { OfferViewer } from './OfferViewer';
@@ -71,7 +71,7 @@ function ConfirmOfferCancellation(props: ConfirmOfferCancellationProps) {
 
   // Communicate value updates to the parent component
   useEffect(() => {
-    const feeInMojos = fee ? Number.parseFloat(chia_to_mojo(fee)) : 0;
+    const feeInMojos = fee ? Number.parseFloat(silicoin_to_mojo(fee)) : 0;
     onUpdateValues({ cancelWithTransaction, cancellationFee: feeInMojos });
   }, [cancelWithTransaction, fee]);
 

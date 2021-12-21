@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans, t } from '@lingui/macro';
-import { Back, ButtonLoading, Card, Flex, Form, TextField } from '@chia/core';
+import { Back, ButtonLoading, Card, Flex, Form, TextField } from '@silicoin/core';
 import { Box, Grid } from '@material-ui/core';
-import { useAddCATTokenMutation } from '@chia/api-react';
+import { useAddCATTokenMutation } from '@silicoin/api-react';
 import { useForm } from 'react-hook-form';
 import { useHistory } from 'react-router';
 import useWalletState from '../../../hooks/useWalletState';

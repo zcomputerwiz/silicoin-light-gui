@@ -1,8 +1,8 @@
 {
-  "name": "@chia/api",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "Chia API Library",
-  "productName": "Chia Blockchain",
+  "name": "@silicoin/api",
+  "author": "Silicoin Network <hello@silicoin.net> (https://silicoin.net/)",
+  "description": "Silicoin API Library",
+  "productName": "Silicoin Blockchain",
   "private": true,
   "version": "1.0.0",
   "engines": {

@@ -1,10 +1,10 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
-import { CAT, OfferTradeRecord, Wallet, WalletType } from '@chia/api';
-import chiaLazyBaseQuery from '../chiaLazyBaseQuery';
+import { CAT, OfferTradeRecord, Wallet, WalletType } from '@silicoin/api';
+import silicoinLazyBaseQuery from '../silicoinLazyBaseQuery';
 import type Transaction from '../@types/Transaction';
 import onCacheEntryAddedInvalidate from '../utils/onCacheEntryAddedInvalidate';
 
-const baseQuery = chiaLazyBaseQuery({
+const baseQuery = silicoinLazyBaseQuery({
   service: Wallet,
 });
 

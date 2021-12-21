@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
 import styled from 'styled-components';
-import { Button, ConfirmDialog, Flex, Logo, Loading, useOpenDialog, TooltipIcon } from '@chia/core';
+import { Button, ConfirmDialog, Flex, Logo, Loading, useOpenDialog, TooltipIcon } from '@silicoin/core';
 import {
   Card,
   Typography,
@@ -13,7 +13,7 @@ import {
   useGetPublicKeysQuery,
   useDeleteAllKeysMutation,
   useGetStateQuery,
-} from '@chia/api-react';
+} from '@silicoin/api-react';
 import LayoutHero from '../layout/LayoutHero';
 import SelectKeyItem from './SelectKeyItem';
 
@@ -79,7 +79,7 @@ export default function SelectKey() {
               </Typography>
               <Typography variant="subtitle1">
                 <Trans>
-                  Welcome to Chia. Please log in with an existing key, or create
+                  Welcome to Silicoin. Please log in with an existing key, or create
                   a new key.
                 </Trans>
               </Typography>

@@ -1,9 +1,9 @@
 import React, { useState, useEffect, ReactNode } from 'react';
 import isElectron from 'is-electron';
 import { Trans } from '@lingui/macro';
-import { ConnectionState } from '@chia/api';
-import { useCloseMutation, useGetStateQuery } from '@chia/api-react';
-import { Flex, Loading } from '@chia/core';
+import { ConnectionState } from '@silicoin/api';
+import { useCloseMutation, useGetStateQuery } from '@silicoin/api-react';
+import { Flex, Loading } from '@silicoin/core';
 import LayoutHero from '../layout/LayoutHero';
 import { Typography } from '@material-ui/core';
 import ServiceHumanName from '../../constants/ServiceHumanName';

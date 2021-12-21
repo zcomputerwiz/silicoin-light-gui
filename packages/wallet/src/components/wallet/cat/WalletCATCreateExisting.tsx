@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Trans } from '@lingui/macro';
-import { AlertDialog, Fee, Back, ButtonLoading, Card, Flex, Form, TextField } from '@chia/core';
+import { AlertDialog, Fee, Back, ButtonLoading, Card, Flex, Form, TextField } from '@silicoin/core';
 import { Box, Grid } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 import { useForm } from 'react-hook-form';
 import { useHistory } from 'react-router';
 import { create_cc_for_colour_action } from '../../../modules/message';
-import { chia_to_mojo } from '../../../util/chia';
+import { silicoin_to_mojo } from '../../../util/silicoin';
 import { openDialog } from '../../../modules/dialog';
 import config from '../../../config/config';
 
@@ -57,7 +57,7 @@ export default function WalletCATCreateExisting() {
         return;
       }*/
 
-      const feeMojos = chia_to_mojo(fee || '0');
+      const feeMojos = silicoin_to_mojo(fee || '0');
 
       const response = await dispatch(create_cc_for_colour_action(name, feeMojos));
       if (response && response.data && response.data.success === true) {
@@ -74,7 +74,7 @@ export default function WalletCATCreateExisting() {
         <Back variant="h5">
           {asteroid 
             ? <Trans>Create custom CAT Wallet</Trans>
-            : <Trans>Create Chia Asset Token Wallet from Existing TAIL</Trans>}
+            : <Trans>Create Silicoin Asset Token Wallet from Existing TAIL</Trans>}
           
         </Back>
         <Card>

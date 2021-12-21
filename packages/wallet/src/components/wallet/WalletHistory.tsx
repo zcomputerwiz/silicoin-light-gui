@@ -3,13 +3,13 @@ import { Trans } from '@lingui/macro';
 import moment from 'moment';
 import { Box, IconButton, Table as TableBase, TableBody, TableCell, TableRow, Tooltip, Typography, Chip } from '@material-ui/core';
 import { CallReceived as CallReceivedIcon, CallMade as CallMadeIcon, ExpandLess as ExpandLessIcon, ExpandMore as ExpandMoreIcon } from '@material-ui/icons';
-import { Card, CardKeyValue, CopyToClipboard, Flex, Loading, StateColor, TableControlled } from '@chia/core';
+import { Card, CardKeyValue, CopyToClipboard, Flex, Loading, StateColor, TableControlled } from '@silicoin/core';
 import styled from 'styled-components';
 import type { Row } from '../core/components/Table/Table';
 import {
-  mojo_to_chia_string,
+  mojo_to_silicoin_string,
   mojo_to_colouredcoin_string,
-} from '../../util/chia';
+} from '../../util/silicoin';
 import TransactionType from '../../constants/TransactionType';
 import WalletType from '../../constants/WalletType';
 import useWallet from '../../hooks/useWallet';
@@ -136,7 +136,7 @@ const getCols = (type: WalletType) => [
           <strong>
             {type === WalletType.CAT
             ? mojo_to_colouredcoin_string(row.amount)
-            : mojo_to_chia_string(row.amount)}
+            : mojo_to_silicoin_string(row.amount)}
           </strong>
           &nbsp;
           {metadata.unit}
@@ -148,7 +148,7 @@ const getCols = (type: WalletType) => [
   {
     field: (row: Row, metadata) => (
       <>
-        <strong>{mojo_to_chia_string(row.feeAmount)}</strong>
+        <strong>{mojo_to_silicoin_string(row.feeAmount)}</strong>
         &nbsp;
         {metadata.feeUnit}
       </>

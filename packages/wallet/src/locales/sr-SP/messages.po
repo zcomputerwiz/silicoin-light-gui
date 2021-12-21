@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: sr_SP\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: silicoin-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-09-17 17:39\n"
 "Last-Translator: \n"
 "Language-Team: Serbian (Cyrillic)\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: silicoin-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: sr\n"
-"X-Crowdin-File: /[Chia-Network.silicoin-light-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Silicoin-Network.silicoin-light-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-#~ msgstr "* Желиш да сазнаш више о Chia блоковима? Провери <0>Chia претраживач</0> који је настао од стране програмера отвореног кода."
+#~ msgid "*Want to explore Silicoin’s blocks further? Check out <0>Silicoin Explorer</0> built by an open source developer."
+#~ msgstr "* Желиш да сазнаш више о Silicoin блоковима? Провери <0>Silicoin претраживач</0> који је настао од стране програмера отвореног кода."
 
 #: src/components/wallet/WalletHistory.tsx:111
 msgid "+"
@@ -60,12 +60,12 @@ msgstr ""
 
 #: src/electron/main.tsx:423
 #: src/electron/main.tsx:510
-#~ msgid "About Chia Blockchain"
-#~ msgstr "О Chia блокчејну"
+#~ msgid "About Silicoin Blockchain"
+#~ msgstr "О Silicoin блокчејну"
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Wallet"
+msgid "About Silicoin Wallet"
 msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:74
@@ -302,8 +302,8 @@ msgstr "Стање"
 #~ msgstr "Блок VDF понављања"
 
 #: src/components/block/Block.jsx:337
-#~ msgid "Block at height {0} in the Chia blockchain"
-#~ msgstr "Блок на висини {0} у Chia блокчејну"
+#~ msgid "Block at height {0} in the Silicoin blockchain"
+#~ msgstr "Блок на висини {0} у Silicoin блокчејну"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -379,7 +379,7 @@ msgstr ""
 
 #: src/components/wallet/WalletSend.tsx:99
 #: src/components/wallet/cat/WalletCATSend.tsx:117
-msgid "Cannot send chia to coloured address. Please enter a chia address."
+msgid "Cannot send silicoin to coloured address. Please enter a silicoin address."
 msgstr ""
 
 #: src/components/plot/PlotsNotFound.tsx:39
@@ -409,20 +409,20 @@ msgid "Chat on KeyBase"
 msgstr "Разговарај на KeyBase-у"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "Chia"
+msgid "Silicoin"
+msgstr "Silicoin"
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:25
 #: src/components/wallet/create/WalletCreateList.tsx:32
-msgid "Chia Asset Token"
+msgid "Silicoin Asset Token"
 msgstr ""
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "Вики за Chia блокчејн"
+msgid "Silicoin Blockchain Wiki"
+msgstr "Вики за Silicoin блокчејн"
 
 #: src/components/wallet/standard/WalletStandard.tsx:23
-msgid "Chia Wallet"
+msgid "Silicoin Wallet"
 msgstr "Чија Новчаник"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
@@ -592,11 +592,11 @@ msgid "Create An Attestation Packet"
 msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:65
-#~ msgid "Create Chia Asset Token Wallet"
+#~ msgid "Create Silicoin Asset Token Wallet"
 #~ msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:77
-msgid "Create Chia Asset Token Wallet from Existing TAIL"
+msgid "Create Silicoin Asset Token Wallet from Existing TAIL"
 msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:290
@@ -608,7 +608,7 @@ msgid "Create Distributed Identity Wallet"
 msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateNew.tsx:77
-msgid "Create New Chia Asset Token Wallet"
+msgid "Create New Silicoin Asset Token Wallet"
 msgstr ""
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:32
@@ -900,7 +900,7 @@ msgstr "Уреди"
 #~ msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:94
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Silicoin wallet."
 msgstr "Унесите мнемонику од 24 речи коју сте сачували да бисте вратили Чија новчаник."
 
 #: src/components/farm/card/FarmCard.tsx:57
@@ -912,7 +912,7 @@ msgid "Error the entered address appears to be for a different colour."
 msgstr ""
 
 #: src/components/wallet/WalletSend.tsx:289
-#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+#~ msgid "Error: Cannot send silicoin to coloured address. Please enter a silicoin address."
 #~ msgstr "Грешка: Не могу послати чија на обојену адресу. Унесите чија адресу."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
@@ -1854,8 +1854,8 @@ msgstr ""
 #~ msgstr "Филтрирани плотови"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-#~ msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-#~ msgstr "Плотовима је додељен простор на твом хард-диску који се користи за фарму и Chia зараду. <0> Сазнај више </0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Silicoin. <0>Learn more</0>"
+#~ msgstr "Плотовима је додељен простор на твом хард-диску који се користи за фарму и Silicoin зараду. <0> Сазнај више </0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 #~ msgid "Plotting"
@@ -2388,8 +2388,8 @@ msgstr "Дужина интервала трошења (број блокова)
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Ограничење потрошње (chia по интервалу): {0}"
+msgid "Spending Limit (silicoin per interval): {0}"
+msgstr "Ограничење потрошње (silicoin по интервалу): {0}"
 
 #: src/constants/WalletName.ts:5
 msgid "Standard Wallet"
@@ -2438,8 +2438,8 @@ msgstr "Статус:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Silicoin blockchain"
+#~ msgstr "Sub Block at height {0} in the Silicoin blockchain"
 
 #: src/components/wallet/did/WalletDID.tsx:886
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
@@ -2601,8 +2601,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Ова опција је доступна само кроз корисничко окружење."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Ово је количина Chia коју тренутно можеш користити за обављање трансакција. Не укључује награде за фармање на чекању, долазне трансакције на чекању и Chia која је управо потрошена, али још увек није на блокчејну."
+msgid "This is the amount of Silicoin that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Silicoin that you have just spent but is not yet in the blockchain."
+msgstr "Ово је количина Silicoin коју тренутно можеш користити за обављање трансакција. Не укључује награде за фармање на чекању, долазне трансакције на чекању и Silicoin која је управо потрошена, али још увек није на блокчејну."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:44
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2621,8 +2621,8 @@ msgstr "Ово је збир долазних и одлазних трансак
 #~ msgstr "Ово је време када је фармер креирао блок, и то пре него што је финализован доказом о времену"
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:16
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Ово је укупна количина chia на блокчејну у тренутном блоку којим управљају твоји приватни кључеви. Укључује замрзнуте награде за фарамање, али не долазне и одлазне трансакције."
+msgid "This is the total amount of silicoin in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Ово је укупна количина silicoin на блокчејну у тренутном блоку којим управљају твоји приватни кључеви. Укључује замрзнуте награде за фарамање, али не долазне и одлазне трансакције."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:31
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2679,8 +2679,8 @@ msgstr ""
 #~ msgstr "Ова трговина је укључена на блокчејну у овој висини блока"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-#~ msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-#~ msgstr "Ова верзија Chia није компатибилна са блокчејном и не може безбедно користити фарму."
+#~ msgid "This version of Silicoin is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "Ова верзија Silicoin није компатибилна са блокчејном и не може безбедно користити фарму."
 
 #: src/components/fullNode/FullNode.jsx:92
 #~ msgid "Time Created"
@@ -2716,8 +2716,8 @@ msgstr ""
 msgid "Total Balance"
 msgstr "Укупно стање"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalSilicoinFarmed.tsx:15
+#~ msgid "Total Silicoin Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2940,7 +2940,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.silicoinWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2976,7 +2976,7 @@ msgstr "Новчаници"
 #~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-#~ msgid "Want to earn more Chia? Add more plots to your farm."
+#~ msgid "Want to earn more Silicoin? Add more plots to your farm."
 #~ msgstr "Желиш да зарадиш више? Додај још плотова у фарму."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
@@ -3004,8 +3004,8 @@ msgstr ""
 #~ msgstr "Тежина је укупна додата сложеност свих блокова до овог, укључујући и њега"
 
 #: src/components/selectKey/SelectKey.tsx:81
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Добродошли у Chia. Пријави се помоћу постојећег кључа или креирај нови кључ."
+msgid "Welcome to Silicoin. Please log in with an existing key, or create a new key."
+msgstr "Добродошли у Silicoin. Пријави се помоћу постојећег кључа или креирај нови кључ."
 
 #: src/components/wallet/WalletAdd.tsx:85
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -3081,8 +3081,8 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Silicoin application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Silicoin application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 #~ msgid "You need {currencyCode} to join a pool."
@@ -3180,9 +3180,9 @@ msgstr ""
 #~ msgid "{currencyCode} Block Rewards"
 #~ msgstr "{currencyCode} награде од блокова"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-#~ msgid "{currencyCode} Total Chia Farmed"
-#~ msgstr "{currencyCode} укупно Chia са фарме"
+#: src/components/farm/card/FarmCardTotalSilicoinFarmed.tsx:29
+#~ msgid "{currencyCode} Total Silicoin Farmed"
+#~ msgstr "{currencyCode} укупно Silicoin са фарме"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 #~ msgid "{currencyCode} User Transaction Fees"

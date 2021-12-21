@@ -11,16 +11,16 @@ import {
   ButtonLoading,
   TextField,
   useOpenDialog,
-} from '@chia/core';
+} from '@silicoin/core';
 import { 
   useSpendCATMutation,
   useGetSyncStatusQuery,
   useFarmBlockMutation,
-} from '@chia/api-react';
+} from '@silicoin/api-react';
 import isNumeric from 'validator/es/lib/isNumeric';
 import { useForm, useWatch } from 'react-hook-form';
 import { Button, Grid } from '@material-ui/core';
-import { chia_to_mojo, colouredcoin_to_mojo } from '../../../util/chia';
+import { silicoin_to_mojo, colouredcoin_to_mojo } from '../../../util/silicoin';
 import getTransactionResult from '../../../util/getTransactionResult';
 import config from '../../../config/config';
 import useWallet from '../../../hooks/useWallet';
@@ -114,10 +114,10 @@ export default function WalletCATSend(props: Props) {
     }
 
     if (address.includes('colour')) {
-      throw new Error(t`Cannot send chia to coloured address. Please enter a chia address.`);
+      throw new Error(t`Cannot send silicoin to coloured address. Please enter a silicoin address.`);
     }
 
-    if (address.includes('chia_addr') || address.includes('colour_desc')) {
+    if (address.includes('silicoin_addr') || address.includes('colour_desc')) {
       throw new Error(t`Recipient address is not a coloured wallet address. Please enter a coloured wallet address`);
     }
     if (address.slice(0, 14) === 'colour_addr://') {
@@ -128,7 +128,7 @@ export default function WalletCATSend(props: Props) {
       }
     }
 
-    if (address.slice(0, 12) === 'chia_addr://') {
+    if (address.slice(0, 12) === 'silicoin_addr://') {
       address = address.slice(12);
     }
     if (address.startsWith('0x') || address.startsWith('0X')) {
@@ -136,7 +136,7 @@ export default function WalletCATSend(props: Props) {
     }
 
     const amountValue = Number.parseFloat(colouredcoin_to_mojo(amount));
-    const feeValue = Number.parseFloat(chia_to_mojo(fee));
+    const feeValue = Number.parseFloat(silicoin_to_mojo(fee));
 
     const memo = data.memo.trim();
     const memos = memo ? [memo] : undefined;

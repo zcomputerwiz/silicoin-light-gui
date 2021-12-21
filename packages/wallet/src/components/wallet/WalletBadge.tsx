@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Tooltip } from '@chia/core';
-import { useGetCatListQuery } from '@chia/api-react';
+import { Tooltip } from '@silicoin/core';
+import { useGetCatListQuery } from '@silicoin/api-react';
 import { VerifiedUser as VerifiedUserIcon, VerifiedUserProps } from '@material-ui/icons';
 import styled from 'styled-components';
 import Wallet from '../../types/Wallet';

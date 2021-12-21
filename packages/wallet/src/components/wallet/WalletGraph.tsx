@@ -4,10 +4,10 @@ import { ResponsiveLine } from '@nivo/line';
 import { orderBy, groupBy, sumBy, map } from 'lodash';
 import { /* Typography, */ Paper } from '@material-ui/core';
 import styled from 'styled-components';
-import { useGetWalletBalanceQuery } from '@chia/api-react';
+import { useGetWalletBalanceQuery } from '@silicoin/api-react';
 import TransactionType from '../../constants/TransactionType';
 import type Transaction from '../../types/Transaction';
-import { mojo_to_chia } from '../../util/chia';
+import { mojo_to_silicoin } from '../../util/silicoin';
 import blockHeightToTimestamp from '../../util/blockHeightToTimestamp';
 import useWalletTransactions from '../../hooks/useWalletTransactions';
 
@@ -197,8 +197,8 @@ function prepareGraphPoints(
   const points = [
     {
       x: peakTransaction.confirmedAtHeight,
-      y: Math.max(0, mojo_to_chia(start)),
-      tooltip: mojo_to_chia(balance),
+      y: Math.max(0, mojo_to_silicoin(start)),
+      tooltip: mojo_to_silicoin(balance),
     },
   ];
 
@@ -209,8 +209,8 @@ function prepareGraphPoints(
 
     points.push({
       x: timestamp,
-      y: Math.max(0, mojo_to_chia(start)),
-      tooltip: mojo_to_chia(start),
+      y: Math.max(0, mojo_to_silicoin(start)),
+      tooltip: mojo_to_silicoin(start),
     });
   });
 

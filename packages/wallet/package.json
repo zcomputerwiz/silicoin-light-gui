@@ -1,8 +1,8 @@
 {
-  "name": "@chia/wallet",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "Standalone wallet for Chia Blockchain",
-  "productName": "Chia Wallet",
+  "name": "@silicoin/wallet",
+  "author": "Silicoin Network <hello@silicoin.net> (https://silicoin.net/)",
+  "description": "Standalone wallet for Silicoin Blockchain",
+  "productName": "Silicoin Wallet",
   "private": true,
   "homepage": "./",
   "main": "build/electron/main.js",
@@ -27,10 +27,10 @@
     "lint": "tsc --noEmit && npm run eslint"
   },
   "dependencies": {
-    "@chia/core": "^1.0.0",
-    "@chia/icons": "^1.0.0",
-    "@chia/api": "^1.0.0",
-    "@chia/api-react": "^1.0.0",
+    "@silicoin/core": "^1.0.0",
+    "@silicoin/icons": "^1.0.0",
+    "@silicoin/api": "^1.0.0",
+    "@silicoin/api-react": "^1.0.0",
     "@fontsource/roboto": "^4.5.1",
     "@lingui/core": "^3.12.1",
     "@lingui/macro": "^3.12.1",

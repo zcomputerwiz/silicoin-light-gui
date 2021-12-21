@@ -1,8 +1,8 @@
 import WalletType from '../../../constants/WalletType';
 import {
-  mojo_to_chia_string,
+  mojo_to_silicoin_string,
   mojo_to_colouredcoin_string,
-} from '../../../util/chia';
+} from '../../../util/silicoin';
 import OfferState from './OfferState';
 
 type OfferEntry = {
@@ -72,7 +72,7 @@ export function colorForOfferState(state: OfferState): OfferStateColor {
 export function formatAmountForWalletType(amount: string | number, walletType: WalletType): string {
   let amountString = '';
   if (walletType === WalletType.STANDARD_WALLET) {
-    amountString = mojo_to_chia_string(amount);
+    amountString = mojo_to_silicoin_string(amount);
   }
   else if (walletType === WalletType.CAT) {
     amountString = mojo_to_colouredcoin_string(amount);

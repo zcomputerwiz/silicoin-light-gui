@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
 import { useSelector } from 'react-redux';
-import { Loading, State, StateIndicator } from '@chia/core';
-import { useGetSyncStatusQuery } from '@chia/api-react';
+import { Loading, State, StateIndicator } from '@silicoin/core';
+import { useGetSyncStatusQuery } from '@silicoin/api-react';
 import { Typography } from '@material-ui/core';
 import type { RootState } from '../../modules/rootReducer';
 import getWalletSyncingStatus from '../../util/getWalletSyncingStatus';

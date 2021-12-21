@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: tr_TR\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: silicoin-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-09-17 17:39\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: silicoin-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: tr\n"
-"X-Crowdin-File: /[Chia-Network.silicoin-light-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Silicoin-Network.silicoin-light-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgstr ""
 #~ msgstr "(Seçimlik)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-#~ msgstr "Chia'nın bloklarını daha da keşfetmek ister misiniz? Açık kaynaklı bir geliştirici tarafından oluşturulan <0> Chia Explorer </0> 'a göz atın."
+#~ msgid "*Want to explore Silicoin’s blocks further? Check out <0>Silicoin Explorer</0> built by an open source developer."
+#~ msgstr "Silicoin'nın bloklarını daha da keşfetmek ister misiniz? Açık kaynaklı bir geliştirici tarafından oluşturulan <0> Silicoin Explorer </0> 'a göz atın."
 
 #: src/components/wallet/WalletHistory.tsx:111
 msgid "+"
@@ -60,12 +60,12 @@ msgstr ""
 
 #: src/electron/main.tsx:423
 #: src/electron/main.tsx:510
-#~ msgid "About Chia Blockchain"
-#~ msgstr "Chia Blokzinciri Hakkında"
+#~ msgid "About Silicoin Blockchain"
+#~ msgstr "Silicoin Blokzinciri Hakkında"
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Wallet"
+msgid "About Silicoin Wallet"
 msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:74
@@ -302,8 +302,8 @@ msgstr "Bakiye"
 #~ msgstr "VDF Yinelemelerini Engelle"
 
 #: src/components/block/Block.jsx:337
-#~ msgid "Block at height {0} in the Chia blockchain"
-#~ msgstr "Chia blok zincirinde {0} yüksekliğinde engelle"
+#~ msgid "Block at height {0} in the Silicoin blockchain"
+#~ msgstr "Silicoin blok zincirinde {0} yüksekliğinde engelle"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -379,7 +379,7 @@ msgstr ""
 
 #: src/components/wallet/WalletSend.tsx:99
 #: src/components/wallet/cat/WalletCATSend.tsx:117
-msgid "Cannot send chia to coloured address. Please enter a chia address."
+msgid "Cannot send silicoin to coloured address. Please enter a silicoin address."
 msgstr ""
 
 #: src/components/plot/PlotsNotFound.tsx:39
@@ -409,21 +409,21 @@ msgid "Chat on KeyBase"
 msgstr "Keybase'de Sohbet Et"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "Chia"
+msgid "Silicoin"
+msgstr "Silicoin"
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:25
 #: src/components/wallet/create/WalletCreateList.tsx:32
-msgid "Chia Asset Token"
+msgid "Silicoin Asset Token"
 msgstr ""
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Blokchain Wiki"
+msgid "Silicoin Blockchain Wiki"
+msgstr "Silicoin Blokchain Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:23
-msgid "Chia Wallet"
-msgstr "Chia Cüzdanı"
+msgid "Silicoin Wallet"
+msgstr "Silicoin Cüzdanı"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 #~ msgid "Choose Number of Plots"
@@ -592,11 +592,11 @@ msgid "Create An Attestation Packet"
 msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:65
-#~ msgid "Create Chia Asset Token Wallet"
+#~ msgid "Create Silicoin Asset Token Wallet"
 #~ msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:77
-msgid "Create Chia Asset Token Wallet from Existing TAIL"
+msgid "Create Silicoin Asset Token Wallet from Existing TAIL"
 msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:290
@@ -608,7 +608,7 @@ msgid "Create Distributed Identity Wallet"
 msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateNew.tsx:77
-msgid "Create New Chia Asset Token Wallet"
+msgid "Create New Silicoin Asset Token Wallet"
 msgstr ""
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:32
@@ -900,8 +900,8 @@ msgstr "Düzenle"
 #~ msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:94
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Chia cüzdanınıza ulaşmak için saklamış olduğunuz 24 kelimelik şifre öbeğini girin."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Silicoin wallet."
+msgstr "Silicoin cüzdanınıza ulaşmak için saklamış olduğunuz 24 kelimelik şifre öbeğini girin."
 
 #: src/components/farm/card/FarmCard.tsx:57
 msgid "Error"
@@ -912,8 +912,8 @@ msgid "Error the entered address appears to be for a different colour."
 msgstr ""
 
 #: src/components/wallet/WalletSend.tsx:289
-#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-#~ msgstr "Hata: Renkli adrese chia gönderemiyorum. Lütfen bir chia adresi girin."
+#~ msgid "Error: Cannot send silicoin to coloured address. Please enter a silicoin address."
+#~ msgstr "Hata: Renkli adrese silicoin gönderemiyorum. Lütfen bir silicoin adresi girin."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 #~ msgid "Estimated Network Space"
@@ -1854,8 +1854,8 @@ msgstr ""
 #~ msgstr "Filtreden geçen Plotlar"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-#~ msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-#~ msgstr "Plot'lar sabit diskinizde madencilik yapmak ve Chia kazanmak için belli alanlara ayrılmıştır. <0>Daha Fazlasını Öğren</0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Silicoin. <0>Learn more</0>"
+#~ msgstr "Plot'lar sabit diskinizde madencilik yapmak ve Silicoin kazanmak için belli alanlara ayrılmıştır. <0>Daha Fazlasını Öğren</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 #~ msgid "Plotting"
@@ -2388,8 +2388,8 @@ msgstr "Harcama Aralığı Uzunluğu (blokların sayısı)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Harcama Limiti (aralık başına chia): {0}"
+msgid "Spending Limit (silicoin per interval): {0}"
+msgstr "Harcama Limiti (aralık başına silicoin): {0}"
 
 #: src/constants/WalletName.ts:5
 msgid "Standard Wallet"
@@ -2438,8 +2438,8 @@ msgstr "Durum:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Silicoin blockchain"
+#~ msgstr "Sub Block at height {0} in the Silicoin blockchain"
 
 #: src/components/wallet/did/WalletDID.tsx:886
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
@@ -2601,8 +2601,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Bu özellik yalnızca grafik arayüzden kullanılabilir."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Bu, şu anda işlem yapmak için kullanabileceğiniz Chia miktarıdır. Bekleyen tarım ödüllerini, bekleyen işlemleri ve henüz harcadığınız ancak henüz blok zincirinde olmayan Chia'yı içermez."
+msgid "This is the amount of Silicoin that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Silicoin that you have just spent but is not yet in the blockchain."
+msgstr "Bu, şu anda işlem yapmak için kullanabileceğiniz Silicoin miktarıdır. Bekleyen tarım ödüllerini, bekleyen işlemleri ve henüz harcadığınız ancak henüz blok zincirinde olmayan Silicoin'yı içermez."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:44
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2621,8 +2621,8 @@ msgstr "Bu toplam, gelen, giden ve bekleyen işlemlerin toplamıdır (henüz blo
 #~ msgstr "Bu, bloğun çiftçi tarafından oluşturulduğu zamandır ve bu, bir zaman kanıtıyla sonuçlandırılmadan öncedir"
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:16
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Bu, özel anahtarlarınız tarafından kontrol edilen mevcut en yüksek alt bloktaki blok zincirindeki toplam chia miktarıdır. Dondurulmuş ödüllerini içerir, ancak bekleyen gelen ve giden işlemleri içermez."
+msgid "This is the total amount of silicoin in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Bu, özel anahtarlarınız tarafından kontrol edilen mevcut en yüksek alt bloktaki blok zincirindeki toplam silicoin miktarıdır. Dondurulmuş ödüllerini içerir, ancak bekleyen gelen ve giden işlemleri içermez."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:31
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2679,8 +2679,8 @@ msgstr ""
 #~ msgstr "Bu ticaret, bu blok yüksekliğindeki blok zincirine dahil edildi"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-#~ msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-#~ msgstr "Chia'nın bu sürümü artık blockchain ile uyumlu değil ve güvenli bir şekilde hasat yapamıyor."
+#~ msgid "This version of Silicoin is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "Silicoin'nın bu sürümü artık blockchain ile uyumlu değil ve güvenli bir şekilde hasat yapamıyor."
 
 #: src/components/fullNode/FullNode.jsx:92
 #~ msgid "Time Created"
@@ -2716,8 +2716,8 @@ msgstr ""
 msgid "Total Balance"
 msgstr "Toplam Bakiye"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalSilicoinFarmed.tsx:15
+#~ msgid "Total Silicoin Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2940,7 +2940,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.silicoinWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2976,8 +2976,8 @@ msgstr "Cüzdanlar"
 #~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-#~ msgid "Want to earn more Chia? Add more plots to your farm."
-#~ msgstr "Daha fazla Chia kazanmak için madencinize daha fazla plot ekleyin."
+#~ msgid "Want to earn more Silicoin? Add more plots to your farm."
+#~ msgstr "Daha fazla Silicoin kazanmak için madencinize daha fazla plot ekleyin."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 #~ msgid "Want to have a delay before the next plot starts?"
@@ -3004,8 +3004,8 @@ msgstr ""
 #~ msgstr "Ağırlık, buna kadar ve buna dahil tüm alt blokların toplam zorluğudur"
 
 #: src/components/selectKey/SelectKey.tsx:81
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Chia'ya hoş geldiniz. Lütfen mevcut bir anahtarla giriş yapın veya yeni bir anahtar oluşturun."
+msgid "Welcome to Silicoin. Please log in with an existing key, or create a new key."
+msgstr "Silicoin'ya hoş geldiniz. Lütfen mevcut bir anahtarla giriş yapın veya yeni bir anahtar oluşturun."
 
 #: src/components/wallet/WalletAdd.tsx:85
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -3081,8 +3081,8 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Silicoin application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Silicoin application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 #~ msgid "You need {currencyCode} to join a pool."
@@ -3180,9 +3180,9 @@ msgstr ""
 #~ msgid "{currencyCode} Block Rewards"
 #~ msgstr "{currencyCode} Blok Ödülleri"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-#~ msgid "{currencyCode} Total Chia Farmed"
-#~ msgstr "{currencyCode} Toplam Çıkartılan Chia"
+#: src/components/farm/card/FarmCardTotalSilicoinFarmed.tsx:29
+#~ msgid "{currencyCode} Total Silicoin Farmed"
+#~ msgstr "{currencyCode} Toplam Çıkartılan Silicoin"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 #~ msgid "{currencyCode} User Transaction Fees"

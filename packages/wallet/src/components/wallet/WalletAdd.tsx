@@ -6,11 +6,11 @@ import {
   Grid,
   Container,
 } from '@material-ui/core';
-import { useGenerateMnemonicMutation, useAddKeyMutation, useLogInMutation } from '@chia/api-react';
+import { useGenerateMnemonicMutation, useAddKeyMutation, useLogInMutation } from '@silicoin/api-react';
 import { ArrowBackIos as ArrowBackIosIcon } from '@material-ui/icons';
 import { useHistory } from 'react-router';
 import { useEffectOnce } from 'react-use';
-import { ButtonLoading, Flex, Loading, Link, Logo, useShowError } from '@chia/core';
+import { ButtonLoading, Flex, Loading, Link, Logo, useShowError } from '@silicoin/core';
 import LayoutHero from '../layout/LayoutHero';
 
 const MnemonicField = (props: any) => (

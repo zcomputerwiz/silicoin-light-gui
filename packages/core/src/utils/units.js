@@ -1,17 +1,17 @@
 const units = {
-  chia: 1,
+  silicoin: 1,
   mojo: 1 / 1e12,
   colouredcoin: 1 / 1e9,
 };
 
 const aliases = {
-  chia: ['ch', 'chia', 'Chia'],
+  silicoin: ['ch', 'silicoin', 'Silicoin'],
   mojo: ['mj', 'mojo'],
   colouredcoin: ['cc', 'colouredcoin'],
 };
 
 const display = {
-  chia: {
+  silicoin: {
     format: '{amount} CH',
     fractionDigits: 12,
   },

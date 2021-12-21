@@ -9,7 +9,7 @@ import {
 } from '@material-ui/core';
 import { useWatch, useFormContext } from 'react-hook-form';
 import TextField, { TextFieldProps } from '../TextField';
-import { chia_to_mojo, colouredcoin_to_mojo } from '../../utils/chia';
+import { silicoin_to_mojo, colouredcoin_to_mojo } from '../../utils/silicoin';
 import useCurrencyCode from '../../hooks/useCurrencyCode';
 import FormatLargeNumber from '../FormatLargeNumber';
 import Flex from '../Flex';
@@ -58,7 +58,7 @@ export default function Amount(props: AmountProps) {
   });
 
   const currencyCode = symbol === undefined ? defaultCurrencyCode : symbol;
-  const mojo = currencyCode === 'XCH' ? chia_to_mojo(value) : colouredcoin_to_mojo(value);
+  const mojo = currencyCode === 'XCH' ? silicoin_to_mojo(value) : colouredcoin_to_mojo(value);
 
   return (
     <FormControl variant={variant} fullWidth={fullWidth}>

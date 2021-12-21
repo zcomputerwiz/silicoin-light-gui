@@ -1,8 +1,8 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
-import chiaLazyBaseQuery from '../chiaLazyBaseQuery';
-import { ConnectionState, ServiceName } from '@chia/api';
+import silicoinLazyBaseQuery from '../silicoinLazyBaseQuery';
+import { ConnectionState, ServiceName } from '@silicoin/api';
 
-const baseQuery = chiaLazyBaseQuery();
+const baseQuery = silicoinLazyBaseQuery();
 
 export const clientApi = createApi({
   reducerPath: 'clientApi',

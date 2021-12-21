@@ -7,10 +7,10 @@ import {
 } from '@material-ui/core';
 // import { shuffle } from 'lodash';
 import { useForm, useFieldArray } from 'react-hook-form';
-import { useAddKeyMutation, useLogInMutation } from '@chia/api-react';
+import { useAddKeyMutation, useLogInMutation } from '@silicoin/api-react';
 import { ArrowBackIos as ArrowBackIosIcon } from '@material-ui/icons';
 import { useHistory } from 'react-router';
-import { Autocomplete, ButtonLoading, Form, Flex, Logo, useShowError } from '@chia/core';
+import { Autocomplete, ButtonLoading, Form, Flex, Logo, useShowError } from '@silicoin/core';
 import LayoutHero from '../layout/LayoutHero';
 import english from '../../util/english';
 import useTrans from '../../hooks/useTrans';
@@ -93,7 +93,7 @@ export default function WalletImport() {
             <Typography variant="subtitle1" align="center">
               <Trans>
                 Enter the 24 word mnemonic that you have saved in order to restore
-                your Chia wallet.
+                your Silicoin wallet.
               </Trans>
             </Typography>
             <Grid container spacing={2}>

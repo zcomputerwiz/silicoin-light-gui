@@ -1,8 +1,8 @@
 {
-  "name": "@chia/api-react",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "Chia API react store library",
-  "productName": "Chia Blockchain",
+  "name": "@silicoin/api-react",
+  "author": "Silicoin Network <hello@silicoin.net> (https://silicoin.net/)",
+  "description": "Silicoin API react store library",
+  "productName": "Silicoin Blockchain",
   "private": true,
   "version": "1.0.0",
   "engines": {
@@ -24,13 +24,13 @@
     "regenerator-runtime": "^0.13.9"
   },
   "peerDependencies": {
-    "@chia/api": "^1.0.0",
+    "@silicoin/api": "^1.0.0",
     "@reduxjs/toolkit": "^1.6.2",
     "react-redux": "^7.2.6"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",
-    "@chia/api": "^1.0.0",
+    "@silicoin/api": "^1.0.0",
     "@babel/plugin-proposal-class-properties": "^7.16.0",
     "@babel/plugin-proposal-export-default-from": "^7.16.0",
     "@babel/plugin-transform-runtime": "^7.16.0",

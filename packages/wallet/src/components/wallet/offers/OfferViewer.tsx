@@ -18,7 +18,7 @@ import {
   TooltipIcon,
   useOpenDialog,
   useShowError
-} from '@chia/core';
+} from '@silicoin/core';
 import {
   Box,
   Button,
@@ -33,8 +33,8 @@ import {
   Tooltip,
   Typography
 } from '@material-ui/core';
-import { OfferSummary, OfferTradeRecord } from '@chia/api';
-import { useCheckOfferValidityMutation, useTakeOfferMutation } from '@chia/api-react';
+import { OfferSummary, OfferTradeRecord } from '@silicoin/api';
+import { useCheckOfferValidityMutation, useTakeOfferMutation } from '@silicoin/api-react';
 import {
   colorForOfferState,
   displayStringForOfferState,
@@ -43,7 +43,7 @@ import {
 import useAssetIdName from '../../../hooks/useAssetIdName';
 import useOpenExternal from '../../../hooks/useOpenExternal';
 import WalletType from '../../../constants/WalletType';
-import { chia_to_mojo, mojo_to_chia_string, mojo_to_colouredcoin_string } from '../../../util/chia';
+import { silicoin_to_mojo, mojo_to_silicoin_string, mojo_to_colouredcoin_string } from '../../../util/silicoin';
 import OfferCoinOfInterest from 'types/OfferCoinOfInterest';
 import OfferState from './OfferState';
 import styled from 'styled-components';
@@ -215,7 +215,7 @@ function OfferDetails(props: OfferDetailsProps) {
         return (
           <Typography variant="body2">
             <Flex flexDirection="row" flexGrow={1} gap={1}>
-              {mojo_to_chia_string(coin.amount)}
+              {mojo_to_silicoin_string(coin.amount)}
             </Flex>
           </Typography>
         )
@@ -235,7 +235,7 @@ function OfferDetails(props: OfferDetailsProps) {
             interactive
           >
             <Link
-              onClick={(event: React.SyntheticEvent) => handleLinkClicked(event, `https://www.chiaexplorer.com/blockchain/coin/${coin.parentCoinInfo}`)}
+              onClick={(event: React.SyntheticEvent) => handleLinkClicked(event, `https://www.silicoinexplorer.com/blockchain/coin/${coin.parentCoinInfo}`)}
             >
               {coin.parentCoinInfo}
             </Link>
@@ -258,7 +258,7 @@ function OfferDetails(props: OfferDetailsProps) {
             interactive
           >
             <Link
-              onClick={(event: React.SyntheticEvent) => handleLinkClicked(event, `https://www.chiaexplorer.com/blockchain/puzzlehash/${coin.puzzleHash}`)}
+              onClick={(event: React.SyntheticEvent) => handleLinkClicked(event, `https://www.silicoinexplorer.com/blockchain/puzzlehash/${coin.puzzleHash}`)}
             >
               {coin.puzzleHash}
             </Link>
@@ -278,7 +278,7 @@ function OfferDetails(props: OfferDetailsProps) {
 
   async function handleAcceptOffer(formData: any) {
     const { fee } = formData;
-    const feeInMojos = fee ? Number.parseFloat(chia_to_mojo(fee)) : 0;
+    const feeInMojos = fee ? Number.parseFloat(silicoin_to_mojo(fee)) : 0;
 
     try {
       setIsAccepting(true);

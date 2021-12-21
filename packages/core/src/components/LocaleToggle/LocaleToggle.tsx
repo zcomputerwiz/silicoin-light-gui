@@ -43,7 +43,7 @@ export default function LocaleToggle(props: Props) {
     handleClose();
 
     openExternal(
-      'https://github.com/Chia-Network/silicoin-light-gui/tree/main/src/locales/README.md',
+      'https://github.com/Silicoin-Network/silicoin-light-gui/tree/main/src/locales/README.md',
     );
   }
 

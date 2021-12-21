@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: ja_JP\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: silicoin-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-09-17 17:40\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: silicoin-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: ja\n"
-"X-Crowdin-File: /[Chia-Network.silicoin-light-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Silicoin-Network.silicoin-light-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgstr ""
 #~ msgstr "(オプション)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-#~ msgstr "*チアのブロックをさらに調べたいですか？オープンソース開発者に提供していただいた <0>Chia Explorer</0> を是非ご覧ください。"
+#~ msgid "*Want to explore Silicoin’s blocks further? Check out <0>Silicoin Explorer</0> built by an open source developer."
+#~ msgstr "*チアのブロックをさらに調べたいですか？オープンソース開発者に提供していただいた <0>Silicoin Explorer</0> を是非ご覧ください。"
 
 #: src/components/wallet/WalletHistory.tsx:111
 msgid "+"
@@ -60,12 +60,12 @@ msgstr ""
 
 #: src/electron/main.tsx:423
 #: src/electron/main.tsx:510
-#~ msgid "About Chia Blockchain"
+#~ msgid "About Silicoin Blockchain"
 #~ msgstr "チアブロックチェーンについて"
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Wallet"
+msgid "About Silicoin Wallet"
 msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:74
@@ -302,7 +302,7 @@ msgstr "残高"
 #~ msgstr "ブロック VDF 評価回数"
 
 #: src/components/block/Block.jsx:337
-#~ msgid "Block at height {0} in the Chia blockchain"
+#~ msgid "Block at height {0} in the Silicoin blockchain"
 #~ msgstr "チアブロックチェーン内の高さ {0} のブロック"
 
 #: src/components/fullNode/FullNode.jsx:331
@@ -379,7 +379,7 @@ msgstr ""
 
 #: src/components/wallet/WalletSend.tsx:99
 #: src/components/wallet/cat/WalletCATSend.tsx:117
-msgid "Cannot send chia to coloured address. Please enter a chia address."
+msgid "Cannot send silicoin to coloured address. Please enter a silicoin address."
 msgstr ""
 
 #: src/components/plot/PlotsNotFound.tsx:39
@@ -409,20 +409,20 @@ msgid "Chat on KeyBase"
 msgstr "Keybase でチャット"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
+msgid "Silicoin"
 msgstr "チア"
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:25
 #: src/components/wallet/create/WalletCreateList.tsx:32
-msgid "Chia Asset Token"
+msgid "Silicoin Asset Token"
 msgstr ""
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
+msgid "Silicoin Blockchain Wiki"
 msgstr "チアブロックチェーンの Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:23
-msgid "Chia Wallet"
+msgid "Silicoin Wallet"
 msgstr "チアウォレット"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
@@ -592,11 +592,11 @@ msgid "Create An Attestation Packet"
 msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:65
-#~ msgid "Create Chia Asset Token Wallet"
+#~ msgid "Create Silicoin Asset Token Wallet"
 #~ msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:77
-msgid "Create Chia Asset Token Wallet from Existing TAIL"
+msgid "Create Silicoin Asset Token Wallet from Existing TAIL"
 msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:290
@@ -608,7 +608,7 @@ msgid "Create Distributed Identity Wallet"
 msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateNew.tsx:77
-msgid "Create New Chia Asset Token Wallet"
+msgid "Create New Silicoin Asset Token Wallet"
 msgstr ""
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:32
@@ -900,7 +900,7 @@ msgstr "編集"
 #~ msgstr "支払い指示を編集"
 
 #: src/components/wallet/WalletImport.tsx:94
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Silicoin wallet."
 msgstr "チアウォレットを復元するには、24語の合言葉を入力してください。"
 
 #: src/components/farm/card/FarmCard.tsx:57
@@ -912,7 +912,7 @@ msgid "Error the entered address appears to be for a different colour."
 msgstr ""
 
 #: src/components/wallet/WalletSend.tsx:289
-#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+#~ msgid "Error: Cannot send silicoin to coloured address. Please enter a silicoin address."
 #~ msgstr "エラー: チアは色付きのアドレスには送れません。チアのアドレスを入力してください。"
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
@@ -1854,7 +1854,7 @@ msgstr ""
 #~ msgstr "フィルターを通過した耕地数"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-#~ msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Silicoin. <0>Learn more</0>"
 #~ msgstr "耕地とは、チアを収穫し、得るためにハードドライブ上に確保する領域です。<0>詳しく</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
@@ -2388,7 +2388,7 @@ msgstr "支払いインターバル長 (ブロック数)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
+msgid "Spending Limit (silicoin per interval): {0}"
 msgstr "支払い額上限 (チア毎インターバル): {0}"
 
 #: src/constants/WalletName.ts:5
@@ -2438,8 +2438,8 @@ msgstr "状態:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Silicoin blockchain"
+#~ msgstr "Sub Block at height {0} in the Silicoin blockchain"
 
 #: src/components/wallet/did/WalletDID.tsx:886
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
@@ -2601,7 +2601,7 @@ msgid "This feature is available only from the GUI."
 msgstr "この機能は GUI 限定です。"
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+msgid "This is the amount of Silicoin that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Silicoin that you have just spent but is not yet in the blockchain."
 msgstr "取引に使用できるチアの額です。承認待ちの耕作報酬、承認待ちの入金取引、及びブロックチェーンにまだ含まれていない消費チアはいずれも含まれていません。"
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:44
@@ -2621,7 +2621,7 @@ msgstr "これが (まだブロックチェーンに含まれていない) 保�
 #~ msgstr "これが農家がブロックを作成した日時です。時間証明によって完成する前の段階です。"
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:16
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of silicoin in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "現在の先端サブブロックにおいて、あなたの秘密鍵が所有している全チアの額です。凍結中の耕作報酬は含まれますが、承認待ちの入出金取引は反映されていません。"
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:31
@@ -2679,7 +2679,7 @@ msgstr ""
 #~ msgstr "このトレードはこのブロック高でブロックチェーンに取り込まれました。"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-#~ msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+#~ msgid "This version of Silicoin is no longer compatible with the blockchain and can not safely farm."
 #~ msgstr "ご使用のバージョンのチアアプリはブロックチェーンと互換性が無く、安全に耕作できません。"
 
 #: src/components/fullNode/FullNode.jsx:92
@@ -2716,8 +2716,8 @@ msgstr ""
 msgid "Total Balance"
 msgstr "全残高"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalSilicoinFarmed.tsx:15
+#~ msgid "Total Silicoin Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2940,7 +2940,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.silicoinWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2976,7 +2976,7 @@ msgstr "ウォレット"
 #~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-#~ msgid "Want to earn more Chia? Add more plots to your farm."
+#~ msgid "Want to earn more Silicoin? Add more plots to your farm."
 #~ msgstr "畑に耕地を増やしましょう。さらにチアを得られますよ。"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
@@ -3004,7 +3004,7 @@ msgstr "注意: この鍵はプール報酬アドレスに使われています�
 #~ msgstr "ブロック重とはこのブロックを含めた全てのブロックの難易度の合計です。"
 
 #: src/components/selectKey/SelectKey.tsx:81
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+msgid "Welcome to Silicoin. Please log in with an existing key, or create a new key."
 msgstr "チアにようこそ。お持ちの鍵でログインするか、新しく鍵を作成してください。"
 
 #: src/components/wallet/WalletAdd.tsx:85
@@ -3081,8 +3081,8 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Silicoin application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Silicoin application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 #~ msgid "You need {currencyCode} to join a pool."
@@ -3180,8 +3180,8 @@ msgstr ""
 #~ msgid "{currencyCode} Block Rewards"
 #~ msgstr "{currencyCode} ブロック報酬"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-#~ msgid "{currencyCode} Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalSilicoinFarmed.tsx:29
+#~ msgid "{currencyCode} Total Silicoin Farmed"
 #~ msgstr "{currencyCode} 全収穫チア"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28

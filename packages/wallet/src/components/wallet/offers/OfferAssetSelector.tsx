@@ -1,10 +1,10 @@
 import React, { useMemo } from 'react';
 import { useFormContext } from 'react-hook-form';
-import { Wallet, WalletType } from '@chia/api';
-import { useGetCatListQuery, useGetWalletsQuery } from '@chia/api-react';
+import { Wallet, WalletType } from '@silicoin/api';
+import { useGetCatListQuery, useGetWalletsQuery } from '@silicoin/api-react';
 import { Trans } from '@lingui/macro';
 import { FormControl, InputLabel, MenuItem } from '@material-ui/core';
-import { Select } from '@chia/core';
+import { Select } from '@silicoin/core';
 import type OfferRowData from './OfferRowData';
 import type CATToken from '../../../types/CATToken';
 
@@ -59,7 +59,7 @@ function buildAssetSelectorList(
     }
 
     if (wallet.type === WalletType.STANDARD_WALLET) {
-      name = 'Chia';
+      name = 'Silicoin';
       symbol = 'XCH';
     }
     else if (wallet.type === WalletType.CAT) {

@@ -1,11 +1,11 @@
 import React, { useMemo } from 'react';
 import { useFormContext, useFieldArray } from 'react-hook-form';
 import { Trans } from '@lingui/macro';
-import { Amount, Flex } from '@chia/core';
+import { Amount, Flex } from '@silicoin/core';
 import { Divider, Grid, IconButton, Typography } from '@material-ui/core';
 import { Add, Remove } from '@material-ui/icons';
-import { useGetWalletsQuery } from '@chia/api-react';
-import { Wallet } from '@chia/api';
+import { useGetWalletsQuery } from '@silicoin/api-react';
+import { Wallet } from '@silicoin/api';
 import type OfferRowData from './OfferRowData';
 import WalletType from '../../../constants/WalletType';
 import OfferAssetSelector from './OfferAssetSelector';

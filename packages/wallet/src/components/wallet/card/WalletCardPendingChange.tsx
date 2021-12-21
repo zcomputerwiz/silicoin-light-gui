@@ -1,6 +1,6 @@
 import React, { useMemo, ReactElement } from 'react';
 import { Trans } from '@lingui/macro';
-import { useGetWalletBalanceQuery } from '@chia/api-react';
+import { useGetWalletBalanceQuery } from '@silicoin/api-react';
 import FarmCard from '../../farm/card/FarmCard';
 import useWallet from '../../../hooks/useWallet';
 import getWalletHumanValue from '../../../util/getWalletHumanValue';
