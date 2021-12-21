@@ -1,6 +1,6 @@
 {
   "name": "@silicoin/wallet",
-  "author": "Silicoin Network <hello@silicoin.net> (https://silicoin.net/)",
+  "author": "Silicoin Network <hello@sitnetwork.net> (https://sitnetwork.net/)",
   "description": "Standalone wallet for Silicoin Blockchain",
   "productName": "Silicoin Wallet",
   "private": true,

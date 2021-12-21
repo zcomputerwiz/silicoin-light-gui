@@ -1,5 +1,5 @@
 # silicoin-blockchain
-![Alt text](https://www.silicoin.net/img/silicoin_logo.svg)
+![Alt text](https://www.sitnetwork.net/img/silicoin_logo.svg)
 
 ![GitHub contributors](https://img.shields.io/github/contributors/Silicoin-Network/silicoin-blockchain?logo=GitHub)
 

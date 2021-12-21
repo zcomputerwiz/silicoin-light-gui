@@ -70,7 +70,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://silicoin.net';
+const url = 'https://sitnetwork.net';
 
 type Props = {
   version: string;
