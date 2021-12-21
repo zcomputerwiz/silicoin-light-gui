@@ -112,14 +112,14 @@ describe('units', () => {
     });
     it('updates an existing display', () => {
       units.setDisplay('silicoin', {
-        format: '{amount} TXCH',
+        format: '{amount} TSIT',
         fractionDigits: 0,
       });
 
       const result = units.getDisplay('silicoin');
 
       expect(result).toEqual({
-        format: '{amount} TXCH',
+        format: '{amount} TSIT',
         fractionDigits: 0,
       });
     });

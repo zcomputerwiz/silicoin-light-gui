@@ -60,7 +60,7 @@ function buildAssetSelectorList(
 
     if (wallet.type === WalletType.STANDARD_WALLET) {
       name = 'Silicoin';
-      symbol = 'XCH';
+      symbol = 'SIT';
     }
     else if (wallet.type === WalletType.CAT) {
       name = wallet.name;

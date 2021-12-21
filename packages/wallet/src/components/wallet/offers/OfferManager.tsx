@@ -435,7 +435,7 @@ export function OfferManager() {
             <StyledTradeIcon color="primary" />
             <Typography variant="body1">
               <Trans>
-                Create an offer to exchange XCH or other tokens. View an offer to inspect and accept an offer made by another party.
+                Create an offer to exchange SIT or other tokens. View an offer to inspect and accept an offer made by another party.
               </Trans>
             </Typography>
             <Button onClick={handleCreateOffer} variant="contained" color="primary">

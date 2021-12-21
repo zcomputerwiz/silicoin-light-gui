@@ -30,9 +30,9 @@ export default function useAssetIdName() {
       let symbol: string | undefined;
 
       if (walletType === WalletType.STANDARD_WALLET) {
-        assetId = 'xch';
+        assetId = 'sit';
         name = 'Silicoin';
-        symbol = 'XCH';
+        symbol = 'SIT';
       }
       else if (walletType === WalletType.CAT) {
         const lowercaseTail = wallet.meta.tail.toLowerCase();

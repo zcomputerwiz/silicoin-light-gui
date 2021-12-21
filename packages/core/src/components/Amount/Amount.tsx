@@ -58,7 +58,7 @@ export default function Amount(props: AmountProps) {
   });
 
   const currencyCode = symbol === undefined ? defaultCurrencyCode : symbol;
-  const mojo = currencyCode === 'XCH' ? silicoin_to_mojo(value) : colouredcoin_to_mojo(value);
+  const mojo = currencyCode === 'SIT' ? silicoin_to_mojo(value) : colouredcoin_to_mojo(value);
 
   return (
     <FormControl variant={variant} fullWidth={fullWidth}>
@@ -70,7 +70,7 @@ export default function Amount(props: AmountProps) {
           spellCheck: false,
           inputComponent: NumberFormatCustom as any,
           inputProps: {
-            decimalScale: currencyCode === 'XCH' ? 12 : 3,
+            decimalScale: currencyCode === 'SIT' ? 12 : 3,
           },
           endAdornment: (
             <InputAdornment position="end">{currencyCode}</InputAdornment>
